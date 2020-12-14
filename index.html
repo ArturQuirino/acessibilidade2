@@ -1,10 +1,70 @@
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>Cabeçalho</div>
-    <div>Conteudo Principal</div>
+    <div class="cabecalho">
+      <div>Petshop Tchutchucão</div>
+      <div class="links-externos-cabecalho">
+        <div>Insta do dono</div>
+        <div>Instagram do petshop</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        Valor do carrinho: R$<span id="valorCarrinho">0,00</span>
+      </div>
+      <div class="container_body">
+        <div class="card_produto">
+          <img src="imagens/arranhador.jpg" class="imagem_produto" />
+          <div>Preço: R$100,00</div>
+          <div class="container_adicionar_remover_carrinho">
+            <div class="botao_remover" onclick="removerNoCarrinho(100)"></div>
+            <div class="botao_adicionar" onclick="adicionarNoCarrinho(100)"></div>
+          </div>
+        </div>
+        <div class="card_produto">
+          <img src="imagens/caixa_Transportador.png" class="imagem_produto" />
+          <div>Preço: R$100,00</div>
+          <div class="container_adicionar_remover_carrinho">
+            <div class="botao_remover" onclick="removerNoCarrinho(100)"></div>
+            <div class="botao_adicionar" onclick="adicionarNoCarrinho(100)"></div>
+          </div>
+        </div>
+        <div class="card_produto">
+          <img src="imagens/caixinha_areia.png" class="imagem_produto" />
+          <div>Preço: R$100,00</div>
+          <div class="container_adicionar_remover_carrinho">
+            <div class="botao_remover" onclick="removerNoCarrinho(100)"></div>
+            <div class="botao_adicionar" onclick="adicionarNoCarrinho(100)"></div>
+          </div>
+        </div>
+        <div class="card_produto">
+          <img src="imagens/casa_tubarao.png" class="imagem_produto" />
+          <div>Preço: R$100,00</div>
+          <div class="container_adicionar_remover_carrinho">
+            <div class="botao_remover" onclick="removerNoCarrinho(100)"></div>
+            <div class="botao_adicionar" onclick="adicionarNoCarrinho(100)"></div>
+          </div>
+        </div>
+        <div class="card_produto">
+          <img src="imagens/moleton_canguru.jpeg" class="imagem_produto" />
+          <div>Preço: R$100,00</div>
+          <div class="container_adicionar_remover_carrinho">
+            <div class="botao_remover" onclick="removerNoCarrinho(100)"></div>
+            <div class="botao_adicionar" onclick="adicionarNoCarrinho(100)"></div>
+          </div>
+        </div>
+        <div class="card_produto">
+          <img src="imagens/oculos.jpg" class="imagem_produto" />
+          <div>Preço: R$100,00</div>
+          <div class="container_adicionar_remover_carrinho">
+            <div class="botao_remover" onclick="removerNoCarrinho(100)"></div>
+            <div class="botao_adicionar" onclick="adicionarNoCarrinho(100)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="scripts.js"></script>
   </body>
