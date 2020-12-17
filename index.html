@@ -4,23 +4,27 @@
   </head>
   <body>
     <div class="cabecalho">
-      <div>Petshop Tchutchucão</div>
+      <h1>Petshop Tchutchucão</h1>
       <div class="links-externos-cabecalho">
-        <div>Insta do dono</div>
-        <div>Instagram do petshop</div>
+        <a href="https://www.instagram.com/">Insta do dono</a>
+        <a href="https://www.instagram.com/">Instagram do petshop</a>
       </div>
     </div>
     <div>
       <div>
         Valor do carrinho: R$<span id="valorCarrinho">0,00</span>
       </div>
+      <div>
+        Clique no botão verde para adicionar o no botão vermelho para remover
+      </div>
       <div class="container_body">
         <div class="card_produto">
-          <img src="imagens/arranhador.jpg" class="imagem_produto" />
+          <img src="imagens/arranhador.jpg" class="imagem_produto" alt="arranhador"/>
+          <span>Arranhador</span>
           <div>Preço: R$100,00</div>
           <div class="container_adicionar_remover_carrinho">
-            <div class="botao_remover" onclick="removerNoCarrinho(100)"></div>
-            <div class="botao_adicionar" onclick="adicionarNoCarrinho(100)"></div>
+            <button class="botao_remover" onclick="removerNoCarrinho(100)">Remover</button>
+            <button class="botao_adicionar" onclick="adicionarNoCarrinho(100)">Adicionar</button>
           </div>
         </div>
         <div class="card_produto">
