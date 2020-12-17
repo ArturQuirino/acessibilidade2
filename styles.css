@@ -51,7 +51,7 @@ body {
 .botao_adicionar {
   width: 50%;
   height: 32px;
-  background-color: green;
+  background-color: #71a832;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,7 @@ body {
 .botao_remover {
   width: 50%;
   height: 32px;
-  background-color: red;
+  background-color: #a85532;
   display: flex;
   align-items: center;
   justify-content: center;
