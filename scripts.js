@@ -11,3 +11,7 @@ const removerNoCarrinho = (value) => {
   valorTotal -= value;
   document.getElementById('valorCarrinho').innerHTML = valorTotal + ',00';
 }
+
+const redirectInsta = () => {
+  window.location.href = "https://www.instagram.com/";
+}
